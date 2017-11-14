@@ -26,4 +26,4 @@ github_username:  malkoG
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: hiarc
