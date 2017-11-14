@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 홍익대학교 알고리즘 학회 HI-ARC 공식블로그
+title: About
 permalink: /about/
 ---
 
