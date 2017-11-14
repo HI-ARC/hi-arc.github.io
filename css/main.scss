@@ -37,8 +37,8 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 
-
-@import "./paper.min.css";
+@import "minima";
+@import "https://unpkg.com/papercss@1.1.0/dist/paper.min.css";
 
 .highlight {
     overflow-x: scroll;
