@@ -39,3 +39,7 @@ $on-laptop:        800px;
 
 @import "minima";
 @import "./paper.min.css";
+
+.highlight {
+    overflow-x: scroll;
+}
