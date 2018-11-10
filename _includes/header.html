@@ -1,0 +1,22 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+
+
+    <div class="site-header-section">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
+
+    <div class="site-header-section">
+      <ul>
+
+	{% for item in site.data.navigation.navigations %}
+	<li><a href="{{ item.link }}" alt="{{ item.name }}">{{ item.name }}</a></li>
+	{% endfor %}
+      </ul>      
+    </div>
+    
+
+  </div>
+</header>

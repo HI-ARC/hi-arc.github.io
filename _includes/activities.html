@@ -1,0 +1,10 @@
+
+
+<ul>
+  {% for item in site.data.activity.activities %}
+    <li>
+      <a href="{{ item.link }}" alt="{{ item.year }}">{{ item.year }}</a>
+    </li>
+  {% endfor %}
+
+</ul>
