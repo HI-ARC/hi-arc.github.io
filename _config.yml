@@ -27,3 +27,15 @@ github_username:  malkoG
 # Build settings
 markdown: kramdown
 theme: minima
+
+
+collections:
+  activity:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "activity"
+    values:
+      layout: "activity"

@@ -1,0 +1,10 @@
+navigations:
+  - name: 홈
+    link: /
+    
+  - name: 소개
+    link: /about/
+
+  - name: 활동
+    link: /activity/
+

@@ -38,8 +38,12 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 
 @import "minima";
-@import "https://unpkg.com/papercss@1.1.0/dist/paper.min.css";
 
 .highlight {
     overflow-x: scroll;
+}
+
+.site-header-section {
+    line-height: 54px;
+    height: 54px;
 }
