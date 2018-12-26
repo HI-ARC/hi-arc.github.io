@@ -1,5 +1,34 @@
 ---
-layout: default
+layout: homepage
+title: "HI-ARC"
+fulltitle: "HI-ARC | Hong-Ik Algorithm Research Club" 
+excerpt: HI-ARC | Hong-Ik Algorithm Research Club
 ---
+{% assign ordered_sections = site.sections | sort: 'sequence' %}
 
-<h2>아, 하이아크 아시는구나!</h2>
+{% include nav-home.html %}
+
+<header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h1 class="text-uppercase">
+                    <strong>{{site.fulltitle}}</strong>
+                </h1>
+                <hr>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <p class="text-faded mb-5">{{site.tagline}}</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% for section in ordered_sections %}
+    {% if section.enable %}
+                        
+        {{ section }}
+
+    {% endif %}
+{% endfor %}
