@@ -1,41 +1,27 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 홍익대학교 알고리즘 학회 HI-ARC 공식블로그
-email: kodingwarrior@mycodeis.sexy
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hi-arc.github.io" # the base hostname & protocol for your site
-twitter_username: kodingwarrior
-github_username:  malkoG
+title: HI-ARC | 홍익대학교 알고리즘 학회
+fulltitle: "홍익대학교 알고리즘 학회<br>HI-ARC 공식블로그"
+tagline: ""
+url: "http://hi-arc.github.io" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+facebook: hongikuniv.hiarc
+twitter: twusername
+github: ghusername
+googleplus: gusername
+instagram: igusername
 
+# Contact
+phone: "010-1234-5678" # This is my real number. You should text me.
+email: "hello@gmail.com" # This is my real email address. Please don't email me.
 
+# Category
 collections:
-  activity:
-    output: true
+  - sections
 
-defaults:
-  - scope:
-      path: ""
-      type: "activity"
-    values:
-      layout: "activity"
+# Use this for production
+#sass:
+#  style: compressed
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
