@@ -19,6 +19,7 @@ email: "hello@gmail.com" # This is my real email address. Please don't email me.
 # Category
 collections:
   - sections
+  - activities
 
 # Use this for production
 #sass:

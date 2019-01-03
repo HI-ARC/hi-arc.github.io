@@ -9,7 +9,7 @@ heading: "연락처"
 description: "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 ---
 
-<section id="{{page.href}}">
+<section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">

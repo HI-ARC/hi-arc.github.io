@@ -6,8 +6,14 @@
 <html class="no-js" lang="ko">
 <!--<![endif]-->
 
-{% include head-home.html %}
-	
+	<head>
+		{% include head.html %}
+
+		<link href="css/homepage/global.css" rel="stylesheet">
+		<link media="(max-width: 640px)" href="css/homepage/mobile.css" rel="stylesheet">
+		<link media="(min-width: 640px)" href="css/homepage/labtop.css" rel="stylesheet">
+	</head>
+
 	<body>
 		<!--[if lt IE 8]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -17,7 +23,7 @@
 		
 	</body>
 
-{% include footer-home.html %}
+{% include footer.html %}
 
 </html>
 

@@ -3,12 +3,12 @@ enable: true
 sequence: 2
 
 href: "service"
-nav-text: "service"
+nav-text: "feature"
 
 heading: "HI-ARC의 특징"
 ---
 
-<section id="{{page.href}}">
+<section id="service">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">

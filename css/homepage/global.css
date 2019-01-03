@@ -1,0 +1,64 @@
+/* Fonts */
+* {
+	font-family: 'Noto Sans KR';
+}
+.text-faded {
+	font-family: 'Merriweather';
+}
+
+/* Buttons */
+.btn-trans {
+	border-radius: 0.8rem;
+	border: 2px solid #fff;
+	background-color: transparent;
+	
+	color: #fff;
+
+	-webkit-transition: background 1s;
+	transition: background 1s;
+}
+.btn-trans:hover, .btn-trans:focus, .btn-trans:active {
+	background-color: #fff;
+}
+
+/* Header */
+header.masthead {
+	background-image: url("/img/front.jpg");
+}
+
+.btn-scroll-wrap {
+	padding-top: 4rem;
+}
+.btn-scroll {
+	-webkit-animation: bounce 2s infinite 2s;
+	animation: bounce 2s infinite 2s;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	transform: scale(1);
+}
+.btn-scroll .img-scroll {
+	width: 3rem;
+}
+@keyframes bounce {
+	0%,
+	100%,
+	20%,
+	50%,
+	80% {
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-10px);
+		-ms-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	60% {
+		-webkit-transform: translateY(-5px);
+		-ms-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+
