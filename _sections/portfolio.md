@@ -9,22 +9,35 @@ nav-text: "activity"
 <section class="p-0" id="portfolio">
     <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-                    <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+
+            {% assign acts = site.activities | sample:6 %}
+            {% for act in acts %}
+
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/{{ act.picture }}">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/{{ act.picture }}" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    {{ act.details }}
+                                </div>
+                                <div class="project-category text-faded">
+                                    {{ act.team }}
+
+                                    {% unless act.team == "" or act.members.size == 0 %} &#124; {% endunless %}
+
+                                    {% for member in act.members %}
+                                        {{ member }}
+                                    {% endfor %}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-<!--             <div class="col-lg-4 col-sm-6">
+                    </a>
+                </div>
+
+            {% endfor %}
+
+            <!-- <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
                     <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
                     <div class="portfolio-box-caption">
