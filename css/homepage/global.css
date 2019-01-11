@@ -60,3 +60,8 @@ header.masthead {
 		transform: translateY(-5px);
 	}
 }
+
+/* Section: Portfolio-Info */
+section#portfolio-info {
+	padding-top: 1.5rem;
+}

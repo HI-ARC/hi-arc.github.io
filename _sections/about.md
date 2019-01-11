@@ -10,7 +10,7 @@ description: "HI-ARC는 홍익대학교 컴퓨터공학과 알고리즘 학회�
 button: "see more"
 ---
 
-<section class="bg-dark" id="about">
+<section class="bg-primary" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
