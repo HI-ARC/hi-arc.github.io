@@ -1,3 +1,28 @@
+/* Colors */
+hr { border-color: #800000; }
+a, a:hover { color: #800000; }
+.bg-primary { background-color: #800000 !important; }
+#mainNav .navbar-brand, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color: #800000; }
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover { color: #A04040; }	/* pageTop */
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active { color: #800000 !important; text-shadow: 1px 1px #D3D3D3;  }
+@media (min-width: 992px) {
+	#mainNav.navbar-shrink .navbar-brand,
+	#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover { color: #800000; }
+	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover { color: #A04040; }
+}
+.portfolio-box .portfolio-box-caption { background: rgba(128, 0, 0, 0.5); }
+.btn-primary:active, .btn-primary:focus {
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5) !important;
+	box-shadow: 0 0 0 0.2rem rgba(128, 0, 0, 0.5) !important;
+}
+.text-primary { color: #800000 !important; }
+.btn-primary { background-color: #800000; border-color: #800000; }
+
+
+
 /* Fonts */
 * {
 	font-family: 'Noto Sans KR';
@@ -60,5 +85,3 @@ header.masthead {
 		transform: translateY(-5px);
 	}
 }
-
-

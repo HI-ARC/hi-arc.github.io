@@ -1,5 +1,5 @@
 # Site settings
-title: HI-ARC | 홍익대학교 알고리즘 학회
+title: "HI-ARC | 홍익대학교 알고리즘 학회"
 fulltitle: "홍익대학교 알고리즘 학회<br>HI-ARC 공식블로그"
 tagline: ""
 url: "http://hi-arc.github.io" # The base hostname & protocol for your site. Use it if you need absolute URL's
@@ -25,4 +25,4 @@ collections:
 #sass:
 #  style: compressed
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+exclude: [.scss, .gitignore, .travis.ci, Gemfile, Gemfile.lock, README.md, node_modules, gruntfile.js, package.json]
