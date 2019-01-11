@@ -4,6 +4,8 @@ fulltitle: "홍익대학교 알고리즘 학회<br>HI-ARC 공식블로그"
 tagline: ""
 url: "http://hi-arc.github.io" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
+color-theme: "wine"
+
 # Social
 socialimg: /img/social.jpg # be sure to change this image
 facebook: "hongikuniv.hiarc"
