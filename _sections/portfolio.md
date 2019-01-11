@@ -24,7 +24,7 @@ nav-text: "activity"
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
+<!--             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
                     <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
                     <div class="portfolio-box-caption">
@@ -98,7 +98,7 @@ nav-text: "activity"
                         </div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

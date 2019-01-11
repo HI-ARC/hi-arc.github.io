@@ -6,7 +6,7 @@ url: "http://hi-arc.github.io" # The base hostname & protocol for your site. Use
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
-facebook: hongikuniv.hiarc
+facebook: "hongikuniv.hiarc"
 twitter: twusername
 github: ghusername
 googleplus: gusername
@@ -20,6 +20,9 @@ email: "hello@gmail.com" # This is my real email address. Please don't email me.
 collections:
   - sections
   - activities
+    - 2016
+    - 2017
+    - 2018
 
 # Use this for production
 #sass:
