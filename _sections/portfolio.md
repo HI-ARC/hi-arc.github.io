@@ -43,6 +43,6 @@ nav-text: "activity"
 <section class="bg-dark text-white" id="portfolio-info">
     <div class="container text-center">
         <p class="text-white mb-4">더 많은 기록들</p>
-        <a class="btn btn-trans btn-xl" href="">see more</a>
+        <a class="btn btn-trans btn-xl" href="./intro.html">see more</a>
     </div>
 </section>

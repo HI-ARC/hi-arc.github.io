@@ -17,7 +17,7 @@ button: "see more"
                 <h2 class="section-heading text-white">{{page.heading}}</h2>
                 <hr class="light my-4">
                 <p class="text-faded mb-4">{{page.description}}</p>
-                <a class="btn btn-trans btn-xl" href="/abouts.html">{{page.button}}</a>
+                <a class="btn btn-trans btn-xl" href="/intro.html">{{page.button}}</a>
             </div>
         </div>
     </div>
