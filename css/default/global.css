@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10px auto;
+    max-width: 670px;
+}
+
+section {
+    margin: 10px;
+}

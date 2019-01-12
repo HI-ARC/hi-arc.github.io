@@ -3,5 +3,43 @@ layout: default
 ---
 
 <!-- 소개 -->
+<section>
+    <h2>소개</h2>
+    <p>
+        HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
+    </p>
+</section>
 
 <!-- 주요 활동 -->
+{% assign acts = site.activities | sort: 'year' %}
+<section>
+    <h2>활동 기록</h2>
+
+    <h3>2016</h3>
+    <ul>
+        {% assign last_year = 2016 %}
+
+        {% for act in acts %}
+            {% if last_year != act.year %}
+                </ul>
+
+                <h3>{{act.year}}</h3>
+                <ul>
+                {% assign last_year = act.year %}
+
+            {% endif %}
+
+            <li>
+                {{act.details}} &#124;
+
+                {{ act.team }}
+                {% unless act.team == "" or act.members.size == 0 %} &#124; {% endunless %}
+
+                {% for member in act.members %}
+                    {{ member }}
+                {% endfor %}
+            </li>
+
+        {% endfor %}
+    </ul>
+</section>

@@ -21,16 +21,20 @@ heading: "HI-ARC의 특징"
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-                    <h3 class="mb-3">Sturdy Templates</h3>
-                    <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+                    <i class="fas fa-4x fa-user-edit text-primary mb-3 sr-icon-1"></i>
+                    <h3 class="mb-3">다양한 스터디</h3>
+                    <p class="text-muted mb-0">
+                        지금까지 25개가 넘는 스터디를 학기 중이나 방학 중에 진행하고 있습니다. 기초 프로그래밍부터 고급 알고리즘, 컴퓨터 사이언스를 망라하는 다양한 스터디에 참여할 수 있습니다.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-                    <h3 class="mb-3">Ready to Ship</h3>
-                    <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+                    <i class="fas fa-4x fa-trophy text-primary mb-3 sr-icon-2"></i>
+                    <h3 class="mb-3">알고리즘 대회 참가</h3>
+                    <p class="text-muted mb-0">
+                        ACM-ICPC를 포함하여 UCPC, Kakao Coding Festival, 교내 프로그래 경진대회 등 다양한 알고리즘 대회에 참여하며 좋은 성적을 거두고 있습니다.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
@@ -42,9 +46,9 @@ heading: "HI-ARC의 특징"
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-                    <h3 class="mb-3">Made with Love</h3>
-                    <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+                    <i class="fab fa-4x fa-slack-hash text-primary mb-3 sr-icon-4"></i>
+                    <h3 class="mb-3">Slack을 통한<br class="laptop-break">커뮤니티</h3>
+                    <p class="text-muted mb-0">많은 개발자들이 사용하는 커뮤니케이션 도구인 Slack을 사용하여, 수평적인 인간관계를 유지하고 활발한 프로그래밍 관련 대화를 나눕니다.</p>
                 </div>
             </div>
         </div>

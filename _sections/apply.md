@@ -6,7 +6,7 @@ href: "apply"
 nav-text: "apply"
 
 heading: "HI-ARC는 언제나 열려 있습니다!"
-button: "join now!"
+button: "join now"
 ---
 
 <section class="bg-primary text-white" id="apply">
