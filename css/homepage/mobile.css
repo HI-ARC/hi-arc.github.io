@@ -4,3 +4,10 @@ header {
 header.masthead {
     background-image: url("/img/front-720px.jpg");
 }
+header.masthead h1 {
+    font-size: 1.9rem;
+}
+
+.portfolio-box.visible .portfolio-box-caption {
+    opacity: 1;
+}

@@ -1,3 +1,7 @@
+.mobile-break {
+    display: none;
+}
+
 /* Header */
 @media (max-width: 1930px) {
     header.masthead {
