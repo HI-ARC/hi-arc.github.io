@@ -12,7 +12,7 @@ a, a:hover { color: #F81894; }
 	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
 	#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover { color: #F81894; }
 }
-.portfolio-box .portfolio-box-caption { background: rgba(248, 24, 148, 0.5); }
+.portfolio-box .portfolio-box-caption { background: rgba(248, 24, 148, 0.9); }
 .btn-primary:active, .btn-primary:focus {
 	-webkit-box-shadow: 0 0 0 0.2rem rgba(248, 24, 148, 0.5) !important;
 	box-shadow: 0 0 0 0.2rem rgba(248, 24, 148, 0.5) !important;
