@@ -39,9 +39,9 @@ heading: "HI-ARC의 특징"
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-                    <h3 class="mb-3">Up to Date</h3>
-                    <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+                    <i class="fas fa-4x fa-users text-primary mb-3 sr-icon-3"></i>
+                    <h3 class="mb-3">수평적 인간관계</h3>
+                    <p class="text-muted mb-0">하이아크는 나이, 학번에 얽매이지 않고 서로를 존중하는 수평적인 분위기를 지향합니다. 상호 존중 속에 싹트는 정다운 앜...</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">

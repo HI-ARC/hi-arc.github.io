@@ -1,0 +1,35 @@
+  - 2016:
+    - name: ""
+      rank: ""
+      prize: ""
+
+  - 2017:
+    - name: ""
+      rank: ""
+      prize: ""
+
+  - 2018:
+    - name: "김효원"
+      rank: "1등"
+      prize: "금상"
+    
+    - name: "민경태"
+      rank: "2등"
+      prize: "은상"
+    
+    - name: "이재열"
+      rank: "3등"
+      prize: "은상"
+    
+    - name: "박성빈"
+      rank: "9등"
+      prize: "장려상"
+    
+    - name: "양동우"
+      rank: "17등"
+      prize: "장려상"
+    
+    - name: "김종욱"
+      rank: "8등"
+      prize: "저학년 특별상"
+    

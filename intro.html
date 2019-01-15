@@ -11,35 +11,92 @@ layout: default
 </section>
 
 <!-- 주요 활동 -->
-{% assign acts = site.activities | sort: 'year' %}
+{% assign competition_list = site.data.activities.competitions.lists %}
+{% assign act_list = site.data.activities.competitions.results %}
 <section>
-    <h2>활동 기록</h2>
+    <h2>수상 기록</h2>
+    
+    {% for year_list in competition_list %}
 
-    <h3>2016</h3>
-    <ul>
-        {% assign last_year = 2016 %}
+        {% for year_hash in year_list %}
+            <h3>{{ year_hash[0] }}</h3>
 
-        {% for act in acts %}
-            {% if last_year != act.year %}
-                </ul>
+            {% for comp in year_hash[1] %}
 
-                <h3>{{act.year}}</h3>
-                <ul>
-                {% assign last_year = act.year %}
+                <h4>{{ comp.name }}</h4>
+                <table>
+                    <tr>
+                        <th>Result</th>
+                        <th>Team</th>
+                        <th>Members</th>
+                    </tr>
 
-            {% endif %}
+                    {% for act_hash in act_list %}
+                        {% assign act = act_hash[1] %}
 
-            <li>
-                {{act.details}} &#124;
+                        {% if act.year == year_hash[0] and act.competition == comp.name %}
+                            <tr>
+                                <td>{{ act.result }}</td>
+                                <td>
+                                    {% if act.team == "" %}
+                                        &#45;
+                                    {% else %}
+                                        {{ act.team }}
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if act.members.size > 0 %}
+                                        {% for member in act.members %}
+                                            {{member}}
 
-                {{ act.team }}
-                {% unless act.team == "" or act.members.size == 0 %} &#124; {% endunless %}
+                                            {% unless member == act.members.last %} &#44; {% endunless %}
+                                        {% endfor %}
+                                    {% else %}
+                                        &#45;
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
 
-                {% for member in act.members %}
-                    {{ member }}
-                {% endfor %}
-            </li>
+                </table>
+
+            {% endfor %}
 
         {% endfor %}
-    </ul>
+    {% endfor %}
+</section>
+
+<!-- 스터디 -->
+<section>
+    <h2>스터디 목록</h2>
+
+
+</section>
+
+<!-- 교내 기록 -->
+{% assign in_campus_list = site.data.activities.competitions.incampus %}
+<section>
+    <h2>교내 대회 기록</h2>
+
+    {% for year_list in in_campus_list %}
+
+        {% for year_hash in year_list %}
+            <h3>{{ year_hash[0] }}</h3>
+
+            <table>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                    </tr>
+                    {% for member in year_hash[1] %}
+                        <tr>
+                            <td>{{member.prize}}&#40;{{member.rank}}&#41;</td>
+                            <td>{{member.name}}</td>
+                        </tr>
+                    {% endfor %}
+            </table>
+        {% endfor %}
+
+    {% endfor %}
 </section>

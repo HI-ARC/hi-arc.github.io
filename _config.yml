@@ -22,7 +22,6 @@ apply-form: ""
 # Category
 collections:
   - sections
-  - activities
 
 # Use this for production
 #sass:
