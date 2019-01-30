@@ -19,3 +19,4 @@ a, a:hover { color: #CE679A ; }
 }
 .text-primary { color: #CE679A  !important; }
 .btn-primary { background-color: #CE679A ; border-color: #CE679A ; }
+.btn-trans:hover, .btn-trans:focus, .btn-trans:active { color: #CE679A; }

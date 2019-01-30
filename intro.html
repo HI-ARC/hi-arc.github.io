@@ -1,102 +1,24 @@
 ---
-layout: default
+layout: history
+title: "HI-ARC History"
+excerpt: HI-ARC | Hong-Ik Algorithm Research Club
 ---
-
-<!-- 소개 -->
 <section>
-    <h2>소개</h2>
-    <p>
-        HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
-    </p>
+	<h1>소개</h1>
+	<p>
+		HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
+	</p>
 </section>
 
-<!-- 주요 활동 -->
-{% assign competition_list = site.data.activities.competitions.lists %}
-{% assign act_list = site.data.activities.competitions.results %}
 <section>
-    <h2>수상 기록</h2>
-    
-    {% for year_list in competition_list %}
+	<h1>활동 기록</h1>
+	<div>
+		<input type="radio" name="activity" value="competition" id="radio-competition" checked /><label for="radio-competition">대회 출전</label>
+		<input type="radio" name="activity" value="study" id="radio-study"/><label for="radio-study">스터디 목록</label>
+		<input type="radio" name="activity" value="incampus" id="radio-incampus"/><label for="radio-incampus">교내 대회</label>
+	</div>
 
-        {% for year_hash in year_list %}
-            <h3>{{ year_hash[0] }}</h3>
-
-            {% for comp in year_hash[1] %}
-
-                <h4>{{ comp.name }}</h4>
-                <table>
-                    <tr>
-                        <th>Result</th>
-                        <th>Team</th>
-                        <th>Members</th>
-                    </tr>
-
-                    {% for act_hash in act_list %}
-                        {% assign act = act_hash[1] %}
-
-                        {% if act.year == year_hash[0] and act.competition == comp.name %}
-                            <tr>
-                                <td>{{ act.result }}</td>
-                                <td>
-                                    {% if act.team == "" %}
-                                        &#45;
-                                    {% else %}
-                                        {{ act.team }}
-                                    {% endif %}
-                                </td>
-                                <td>
-                                    {% if act.members.size > 0 %}
-                                        {% for member in act.members %}
-                                            {{member}}
-
-                                            {% unless member == act.members.last %} &#44; {% endunless %}
-                                        {% endfor %}
-                                    {% else %}
-                                        &#45;
-                                    {% endif %}
-                                </td>
-                            </tr>
-                        {% endif %}
-                    {% endfor %}
-
-                </table>
-
-            {% endfor %}
-
-        {% endfor %}
-    {% endfor %}
-</section>
-
-<!-- 스터디 -->
-<section>
-    <h2>스터디 목록</h2>
-
-
-</section>
-
-<!-- 교내 기록 -->
-{% assign in_campus_list = site.data.activities.competitions.incampus %}
-<section>
-    <h2>교내 대회 기록</h2>
-
-    {% for year_list in in_campus_list %}
-
-        {% for year_hash in year_list %}
-            <h3>{{ year_hash[0] }}</h3>
-
-            <table>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Name</th>
-                    </tr>
-                    {% for member in year_hash[1] %}
-                        <tr>
-                            <td>{{member.prize}}&#40;{{member.rank}}&#41;</td>
-                            <td>{{member.name}}</td>
-                        </tr>
-                    {% endfor %}
-            </table>
-        {% endfor %}
-
-    {% endfor %}
+	{% for list in site.lists %}
+        {{ list }}
+	{% endfor %}
 </section>

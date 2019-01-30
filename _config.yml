@@ -21,7 +21,12 @@ apply-form: ""
 
 # Category
 collections:
-  - sections
+  sections:
+    output: false
+
+  lists:
+    output: true
+
 
 # Use this for production
 #sass:

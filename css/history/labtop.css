@@ -1,0 +1,23 @@
+.timeline::after {
+    left: 20%;
+}
+
+.container {
+    width: 80%;
+}
+
+.left {
+    width: 20%;
+    left: 0;
+}
+.left .content {
+    text-align: right;
+}
+
+.right {
+    left: 20%;
+}
+
+.right::after {
+    left: -12px;
+}
