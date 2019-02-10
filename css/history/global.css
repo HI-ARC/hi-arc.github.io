@@ -6,14 +6,18 @@ div.disable {
     display: none !important;
 }
 
+header, section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    margin-top: 3rem;
+}
+
 .video-banner {
     
 }
 
-section {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 h1 {
     font-size: 3rem;
 }
@@ -116,16 +120,27 @@ h1 {
   
   
   
-  /* The actual content */
-  .bubble-content {
+/* The actual content */
+.bubble-content {
     padding: 20px 30px;
-    background-color: #F81894;
+    border: 7px solid #F81894;
     position: relative;
     border-radius: 6px;
-  }
+}
+.bubble-content .title {
+    margin: 0;
+    display: inline-block;
+}
+.bubble-content .description {
+    margin-left: 1rem;
+}
+
 .content {
     padding: 0 1rem;
     margin-top: -1.5rem;
+}
+.content.sub {
+    padding-top: 7px;
 }
 
 .competition th {
@@ -135,12 +150,15 @@ h1 {
 .competition td {
     text-align: center;
 }
-.competition .tb-col1 {
+.competition .tb-col5 {
+    min-width: 5em;
+}
+.competition .tb-col10 {
     min-width: 10em;
 }
-.competition .tb-col2 {
-    min-width: 10em;
-}
-.competition .tb-col3 {
+.competition .tb-col20 {
     min-width: 20em;
+}
+.competition .tb-col30 {
+    min-width: 30em;
 }

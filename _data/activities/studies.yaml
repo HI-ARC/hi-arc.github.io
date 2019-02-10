@@ -1,20 +1,77 @@
-  - 2016:
-    - name: ""
-      semester: ""
-      group: ""
-      thumbnail: ""
-      pictures: []
-  
-  - 2017:
-    - name: ""
-      semester: ""
-      group: ""
-      thumbnail: ""
-      pictures: []
+- year: 2016
+  semesters:
+    - semester: "1학기"
+      lists:
+      - name: "스터디1"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
 
-  - 2018:
-    - name: ""
-      semester: ""
-      group: ""
-      thumbnail: ""
-      pictures: []
+    - semester: "2학기"
+      lists:
+      - name: "스터디3"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+    
+
+- year: 2017
+  semesters:
+    - semester: "1학기"
+      lists:
+      - name: "스터디1"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "여름방학"
+      lists:
+      - name: "스터디2"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "2학기"
+      lists:
+      - name: "스터디3"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "겨울방학"
+      lists:
+      - name: "스터디4"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+
+- year: 2018
+  semesters:
+    - semester: "1학기"
+      lists:
+      - name: "스터디1"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "여름방학"
+      lists:
+      - name: "스터디2"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "2학기"
+      lists:
+      - name: "스터디3"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
+        
+    - semester: "겨울방학"
+      lists:
+      - name: "스터디4"
+        description: "ㅁㄴㅇㄹ"
+        thumbnail: ""
+        pictures: []
