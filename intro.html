@@ -1,45 +1,39 @@
 ---
-layout: default
+layout: history
+title: "HI-ARC History"
+excerpt: HI-ARC | Hong-Ik Algorithm Research Club
 ---
+<nav class="fixed-top">
+	<div class="navbar-container">
+		<a class="navbar-brand" href="/#page-top">{{site.title}}</a>
+	</div>
+</nav>
 
-<!-- 소개 -->
+<header>
+	<h1>소개</h1>
+	<p>
+		HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
+	</p>
+	<!-- <div class="video-banner">
+		<video controls>
+			<source src="promotional.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div> -->
+</header>
+
 <section>
-    <h2>소개</h2>
-    <p>
-        HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
-    </p>
-</section>
+	<h1>활동 기록</h1>
+	<div>
+		<input type="radio" name="activity" value="competition" id="radio-competition" checked />
+			<label for="radio-competition">대회 출전</label>
+		<input type="radio" name="activity" value="study" id="radio-study"/>
+			<label for="radio-study">스터디 목록</label>
+		<input type="radio" name="activity" value="incampus" id="radio-incampus"/>
+			<label for="radio-incampus">교내 대회</label>
+	</div>
 
-<!-- 주요 활동 -->
-{% assign acts = site.activities | sort: 'year' %}
-<section>
-    <h2>활동 기록</h2>
-
-    <h3>2016</h3>
-    <ul>
-        {% assign last_year = 2016 %}
-
-        {% for act in acts %}
-            {% if last_year != act.year %}
-                </ul>
-
-                <h3>{{act.year}}</h3>
-                <ul>
-                {% assign last_year = act.year %}
-
-            {% endif %}
-
-            <li>
-                {{act.details}} &#124;
-
-                {{ act.team }}
-                {% unless act.team == "" or act.members.size == 0 %} &#124; {% endunless %}
-
-                {% for member in act.members %}
-                    {{ member }}
-                {% endfor %}
-            </li>
-
-        {% endfor %}
-    </ul>
+	{% for list in site.lists %}
+        {{ list }}
+	{% endfor %}
 </section>

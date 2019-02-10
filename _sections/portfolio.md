@@ -6,12 +6,14 @@ href: "portfolio"
 nav-text: "activity"
 ---
 
+{% assign acts = site.data.activities.competitions.results | sample: 6 %}
+
 <section class="p-0" id="portfolio">
     <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
 
-            {% assign acts = site.activities | sample:6 %}
-            {% for act in acts %}
+            {% for act_hash in acts %}
+                {% assign act = act_hash[1] %}
 
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="img/portfolio/fullsize/{{ act.picture }}">
@@ -19,7 +21,7 @@ nav-text: "activity"
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    {{ act.details }}
+                                    {{ act.competition }} {{ act.result }}
                                 </div>
                                 <div class="project-category text-faded">
                                     {{ act.team }}

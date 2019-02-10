@@ -1,0 +1,38 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+nav {
+    padding: 0.5rem 1rem;
+
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+}
+
+nav .navbar-brand {
+    display: inline-block;
+
+    margin-right: 1rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+    line-height: inherit;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+nav .navbar-brand,
+nav .navbar-brand:hover,
+nav .navbar-brand:focus,
+nav .navbar-brand:active {
+    text-decoration: none;
+    color: #CE679A;
+}
