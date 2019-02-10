@@ -1,0 +1,58 @@
+/*!
+ * PURE CSS FANCY CHECKBOX/RADIO
+ * Made by Raúl Barrera
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+label {
+	position: relative;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+	line-height: 36px;
+	cursor: pointer;
+}
+label::before {
+	content: " ";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+	/* border: 2px solid #8e44ad; */
+	border: 2px solid #F81894;
+    border-radius: 4px;
+    z-index: -1;
+}
+input[type="radio"] + label::before {
+	border-radius: 18px;
+}
+/* Checked */
+input[type="checkbox"]:checked + label,
+input[type="radio"]:checked + label {
+	padding-left: 10px;
+	color: #fff;
+}
+input[type="checkbox"]:checked + label::before,
+input[type="radio"]:checked + label::before {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: #8e44ad; */
+	background: #F81894;
+}
+/* Transition */
+label,
+label::before {
+	-webkit-transition: 0.25s all ease;
+	-o-transition: 0.25s all ease;
+	transition: 0.25s all ease;
+}

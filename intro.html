@@ -1,0 +1,39 @@
+---
+layout: history
+title: "HI-ARC History"
+excerpt: HI-ARC | Hong-Ik Algorithm Research Club
+---
+<nav class="fixed-top">
+	<div class="navbar-container">
+		<a class="navbar-brand" href="/#page-top">{{site.title}}</a>
+	</div>
+</nav>
+
+<header>
+	<h1>소개</h1>
+	<p>
+		HI-ARC는 Hong-Ik Algorithm Research Club의 약자로, 2017년 창설된 컴퓨터공학과 학회입니다.
+	</p>
+	<!-- <div class="video-banner">
+		<video controls>
+			<source src="promotional.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div> -->
+</header>
+
+<section>
+	<h1>활동 기록</h1>
+	<div>
+		<input type="radio" name="activity" value="competition" id="radio-competition" checked />
+			<label for="radio-competition">대회 출전</label>
+		<input type="radio" name="activity" value="study" id="radio-study"/>
+			<label for="radio-study">스터디 목록</label>
+		<input type="radio" name="activity" value="incampus" id="radio-incampus"/>
+			<label for="radio-incampus">교내 대회</label>
+	</div>
+
+	{% for list in site.lists %}
+        {{ list }}
+	{% endfor %}
+</section>

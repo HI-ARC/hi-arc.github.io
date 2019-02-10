@@ -1,0 +1,20 @@
+.mobile-break {
+    display: none;
+}
+
+/* Header */
+@media (max-width: 1930px) {
+    header.masthead {
+        background-image: url("/img/front-1920px.jpg");
+    }
+}
+
+/* Buttons */
+.btn-xl {
+    padding: 1rem 3rem;
+}
+
+/* Section: Portfolio-Info */
+section#portfolio-info p {
+    font-size: 1.5rem;
+}

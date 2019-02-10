@@ -1,0 +1,31 @@
+nav .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.timeline::after {
+    left: 20%;
+}
+
+.container {
+    width: 80%;
+}
+
+.left {
+    width: 20%;
+    left: 0;
+}
+.left .content {
+    text-align: right;
+}
+
+.right {
+    left: 20%;
+}
+
+.right::after {
+    left: -12px;
+}

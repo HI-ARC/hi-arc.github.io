@@ -1,31 +1,30 @@
 ---
 layout: homepage
 title: "HI-ARC"
-fulltitle: "HI-ARC | Hong-Ik Algorithm Research Club" 
 excerpt: HI-ARC | Hong-Ik Algorithm Research Club
 ---
-{% assign ordered_sections = site.sections | sort: 'sequence' %}
+{% assign nav_collections = site.sections | sort: 'sequence' %}
 
-{% include nav-home.html %}
+{% include navigation.html %}
 
-<header class="masthead text-center text-white d-flex">
+<header class="masthead text-center text-white d-flex" id="page-top">
     <div class="container my-auto">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h1 class="text-uppercase">
                     <strong>{{site.fulltitle}}</strong>
                 </h1>
-                <hr>
             </div>
-            <div class="col-lg-8 mx-auto">
-                <p class="text-faded mb-5">{{site.tagline}}</p>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <div class="col-lg-8 mx-auto btn-scroll-wrap">
+                <a class="btn btn-scroll js-scroll-trigger" href="#about">
+                    <img src="img/down-arrow-white.png" alt="scroll-down button" class="img-scroll">
+                </a>
             </div>
         </div>
     </div>
 </header>
 
-{% for section in ordered_sections %}
+{% for section in nav_collections %}
     {% if section.enable %}
                         
         {{ section }}

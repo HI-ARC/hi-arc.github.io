@@ -6,10 +6,10 @@ href: "contact"
 nav-text: "contact"
 
 heading: "연락처"
-description: "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+description: "혹시 더 궁금한 점이 있나요? 얼마든지 아래 연락처로 연락해주세요!"
 ---
 
-<section id="{{page.href}}">
+<section id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
