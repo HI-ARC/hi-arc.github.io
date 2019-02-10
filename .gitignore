@@ -1,5 +1,8 @@
 /_site
 .sass-cache
 .jekyll-metadata
+
 .travis.yml
+
 Gemfile.lock
+.gitignore
