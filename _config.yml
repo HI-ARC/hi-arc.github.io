@@ -25,7 +25,7 @@ collections:
     output: false
 
   lists:
-    output: true
+    output: false
 
 
 # Use this for production
