@@ -6,6 +6,10 @@ div.disable {
     display: none !important;
 }
 
+.video-banner {
+    
+}
+
 section {
     max-width: 1200px;
     margin: 0 auto;
@@ -13,10 +17,13 @@ section {
 h1 {
     font-size: 3rem;
 }
-  
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
+
+    overflow-x: auto;
+    overflow-y: hidden;
 }
   
 /* The actual timeline (the vertical ruler) */
