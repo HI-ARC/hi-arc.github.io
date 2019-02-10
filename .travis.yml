@@ -5,7 +5,7 @@ rvm:
 
 branches:
   only:
-  - master
+  - develop
 
 script:
   - bundle exec jekyll build --future
