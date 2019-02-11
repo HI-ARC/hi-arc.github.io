@@ -50,8 +50,54 @@
   semesters:
     - semester: "겨울방학"
       lists:
+      
+      - name: "안드로이드기초<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "cpp수업대비<br>(토론식)"
+        description: "객체지향언어 수업을 대비하여 같이 강의도 듣고 감을 잃지 않기 위해 백준 문제도 조금 풀었습니다.<br>by 장우영(4기)"
+        thumbnail: ""
+        pictures: []
+      
+      - name: "js웹렌더링<br>(토론식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "안드로이드앱개발<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+     
+      - name: "머신러닝<br>(토론식)"
+        description: "Sung Kim 교수님의 강의로 기초를 다지고, Hands on machine learning 책으로 조금 더 깊게 머신러닝을 공부했습니다.<br>by 장우영(4기)"
+        thumbnail: ""
+        pictures: []
+        
+      - name: "java<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
+      
+      - name: "정보보안<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
       - name: "Django 스터디<br>(강의식)"
         description: "Django로 간단하게 프로젝트를 만드는 방법을 실습 위주로 강의하는 방식으로 모임을 가졌습니다.<br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+                           
+      - name: "기초알고리즘<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
+
+      - name: "알고리즘<br>(강의식)"
+        description: ""
         thumbnail: ""
         pictures: []
 
