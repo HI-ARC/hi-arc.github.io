@@ -5,10 +5,10 @@
     prize: "금상"
   - name: "박진우"
     rank: "13등"
-    prize: "금상"
+    prize: ""
   - name: "문준오"
     rank: "15등"
-    prize: "금상"
+    prize: ""
     
 - year: 2017
   lists:
