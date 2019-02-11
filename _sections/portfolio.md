@@ -16,8 +16,8 @@ nav-text: "activity"
                 {% assign act = act_hash[1] %}
 
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="img/portfolio/fullsize/{{ act.picture }}">
-                        <img class="img-fluid" src="img/portfolio/thumbnails/{{ act.picture }}" alt="{{ act.picture }}">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="{{ act.picture }}" alt="{{ act.competition }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">

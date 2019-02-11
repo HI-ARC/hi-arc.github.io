@@ -14,7 +14,7 @@
   lists:
   - name: "정윤석"
     rank: "3등"
-    prize: ""
+    prize: "은상"
   - name: "문준오"
     rank: "6등"
     prize: ""
@@ -23,16 +23,16 @@
     prize: ""
   - name: "이재열"
     rank: "9등"
-    prize: ""
+    prize: "장려상"
   - name: "장영석"
     rank: "12등"
-    prize: ""
+    prize: "장려상"
   - name: "이승범"
     rank: "16등"
-    prize: ""
+    prize: "장려상"
   - name: "이준희"
     rank: "18등"
-    prize: ""
+    prize: "장려상"
 
 
 - year: 2018
@@ -48,6 +48,10 @@
   - name: "이재열"
     rank: "3등"
     prize: "은상"
+
+  - name: "김종욱"
+    rank: "8등"
+    prize: "저학년 특별상"
     
   - name: "박성빈"
     rank: "9등"
@@ -56,8 +60,3 @@
   - name: "양동우"
     rank: "17등"
     prize: "장려상"
-
-  - name: "김종욱"
-    rank: "8등"
-    prize: "저학년 특별상"
-    
