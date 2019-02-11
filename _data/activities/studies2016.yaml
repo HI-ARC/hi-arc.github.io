@@ -1,0 +1,15 @@
+- year: 2016
+  semesters:
+    - semester: "2학기"
+      lists:
+      - name: "알고리즘 스터디<br>(강의식)"
+        description: "5명의 학회원이 핵심 주축이 되어 번갈아가면서 강의를 하는 방식으로 스터디를 진행했었습니다. <br>by 장은상(1기), 김원재(1기), 박진우(1기), 이재열(1기), 이현우(1기)"
+        thumbnail: ""
+        pictures: []
+    
+    - semester: "1학기"
+      lists:
+      - name: "&lt;알고리즘 문제해결전략&gt; 스터디"
+        description: "각자 번갈아가면서 문제풀이 방식을 공유하는 방식으로 스터디를 진행했었습니다."
+        thumbnail: ""
+        pictures: []
