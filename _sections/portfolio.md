@@ -17,7 +17,7 @@ nav-text: "activity"
 
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box">
-                        <img width="100%" class="img-fluid" src="{{ act.picture }}" alt="{{ act.competition }}">
+                        <img class="img-fluid" src="{{ act.picture }}" alt="{{ act.competition }}">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
