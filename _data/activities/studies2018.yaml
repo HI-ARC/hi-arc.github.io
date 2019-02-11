@@ -1,0 +1,105 @@
+- year: 2018
+  semesters:
+    - semester: "겨울방학"
+      lists:
+      
+      - name: "안드로이드기초<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "cpp수업대비<br>(토론식)"
+        description: "객체지향언어 수업을 대비하여 같이 강의도 듣고 감을 잃지 않기 위해 백준 문제도 조금 풀었습니다.<br>by 장우영(4기)"
+        thumbnail: ""
+        pictures: []
+      
+      - name: "js웹렌더링<br>(토론식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "안드로이드앱개발<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+     
+      - name: "머신러닝<br>(토론식)"
+        description: "Sung Kim 교수님의 강의로 기초를 다지고, Hands on machine learning 책으로 조금 더 깊게 머신러닝을 공부했습니다.<br>by 장우영(4기)"
+        thumbnail: ""
+        pictures: []
+        
+      - name: "java<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
+      
+      - name: "정보보안<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "Django 스터디<br>(강의식)"
+        description: "Django로 간단하게 프로젝트를 만드는 방법을 실습 위주로 강의하는 방식으로 모임을 가졌습니다.<br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+                           
+      - name: "기초알고리즘<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
+
+      - name: "알고리즘<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+
+    - semester: "2학기"
+      lists:
+      - name: "1학년 C++ 기초 스터디<br>(강의식)"
+        description: "알고리즘 문제 풀이를 할 수 있는 수준으로 C++ 기초 문법에 강의하는 방식으로 모임을 가졌습니다. <br>by 정윤석(2기), 김종욱(3기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "2학년 알고리즘 스터디<br>(강의식)"
+        description: "알고리즘 문제풀이에 필요한 자료구조(vector, string, stack, queue, graph)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 김민균(2기), 민경태(3기)"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "여름방학"
+      lists:
+      - name: "PS 102 &lt;저학년이 풀만한 알고리즘 문제 풀이&gt; 스터디(강의식)"
+        description: "저학년이 풀만한 알고리즘 문제 유형(완전탐색, 비트마스킹, 에라토스테네스의 체, 이분탐색)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "ACM-ICPC 준비 스터디<br>(강의식)"
+        description: "ACM-ICPC를 준비하기 위해, 교과과정에서 다루지 않는 여러가지 자료구조 및 알고리즘(KMP, Ford-fulkerson, Trie, 아호코라식, SCC, 2-SAT)에 대해 강의하는 방식으로 스터디를 진행했습니다.<br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "1학기"
+      lists:
+      - name: "PS 101&lt;C++ 기초 스터디&gt;<br>(강의식)"
+        description: "C++ 기초 문법을 이용해서 문제풀이를 하는 방식에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기), 김민균(2기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "Python 기초 스터디<br>(강의식)"
+        description: "파이썬 기초 문법에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "Django 스터디"
+        description: "Django 교재를 각자 공부하고 모여서 공부한 내용에 대해 토론하는 방식으로 모임을 가졌습니다."
+        thumbnail: ""
+        pictures: []
+
+      - name: "&lt;알고리즘 문제해결전략&gt; 스터디<br>(문제풀이 방법론 중심)"
+        description: "각자 문제를 풀고 모여서 풀이를 판서로 적어가면서 공유하는 방식으로 모임을 가졌습니다."
+        thumbnail: ""
+        pictures: []
+
+      - name: "해킹 스터디"
+        description: "미리 준비된 PPT 자료를 가지고 공부하는 방식으로 모임을 가졌습니다."
+        thumbnail: ""
+        pictures: []
