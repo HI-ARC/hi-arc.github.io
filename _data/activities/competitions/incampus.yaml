@@ -1,14 +1,37 @@
 - year: 2016
   lists:
-  - name: ""
-    rank: ""
-    prize: ""
-
-
+  - name: "김원재"
+    rank: "1등"
+    prize: "금상"
+  - name: "박진우"
+    rank: "13등"
+    prize: "금상"
+  - name: "문준오"
+    rank: "15등"
+    prize: "금상"
+    
 - year: 2017
   lists:
-  - name: ""
-    rank: ""
+  - name: "정윤석"
+    rank: "3"
+    prize: ""
+  - name: "문준오"
+    rank: "6"
+    prize: ""
+  - name: "김민호"
+    rank: "7"
+    prize: ""
+  - name: "이재열"
+    rank: "9"
+    prize: ""
+  - name: "장영석"
+    rank: "12"
+    prize: ""
+  - name: "이승범"
+    rank: "16"
+    prize: ""
+  - name: "이준희"
+    rank: "18"
     prize: ""
 
 
