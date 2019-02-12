@@ -56,18 +56,8 @@
         thumbnail: ""
         pictures: []
       
-      - name: "cpp수업대비<br>(토론식)"
-        description: "객체지향언어 수업을 대비하여 같이 강의도 듣고 감을 잃지 않기 위해 백준 문제도 조금 풀었습니다.<br>by 장우영(3기)"
-        thumbnail: ""
-        pictures: []
-      
       - name: "안드로이드앱개발<br>(강의식)"
         description: ""
-        thumbnail: ""
-        pictures: []
-     
-      - name: "머신러닝<br>(토론식)"
-        description: "Sung Kim 교수님의 강의로 기초를 다지고, Hands on machine learning 책으로 조금 더 깊게 머신러닝을 공부했습니다.<br>by 장우영(3기)"
         thumbnail: ""
         pictures: []
         
@@ -90,11 +80,6 @@
         description: ""
         thumbnail: ""
         pictures: []  
-
-      - name: "알고리즘<br>(강의식)"
-        description: ""
-        thumbnail: ""
-        pictures: []
 
     - semester: "2학기"
       lists:
