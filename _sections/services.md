@@ -33,7 +33,7 @@ heading: "HI-ARC의 특징"
                     <i class="fas fa-4x fa-trophy text-primary mb-3 sr-icon-2"></i>
                     <h3 class="mb-3">알고리즘 대회 참가</h3>
                     <p class="text-muted mb-0">
-                        ACM-ICPC를 포함하여 UCPC, Kakao Coding Festival, 교내 프로그래 경진대회 등 다양한 알고리즘 대회에 참여하며 좋은 성적을 거두고 있습니다.
+                        ACM-ICPC를 포함하여 UCPC, Kakao Coding Festival 등 다양한 알고리즘 대회에 참여하며 좋은 성적을 거두고 있습니다.
                     </p>
                 </div>
             </div>
@@ -41,14 +41,18 @@ heading: "HI-ARC의 특징"
                 <div class="service-box mt-5 mx-auto">
                     <i class="fas fa-4x fa-users text-primary mb-3 sr-icon-3"></i>
                     <h3 class="mb-3">수평적 인간관계</h3>
-                    <p class="text-muted mb-0">하이아크는 나이, 학번에 얽매이지 않고 서로를 존중하는 수평적인 분위기를 지향합니다. 상호 존중 속에 싹트는 정다운 앜...</p>
+                    <p class="text-muted mb-0">
+                        하이아크는 나이, 학번에 얽매이지 않고 서로를 존중하는 수평적인 분위기를 지향합니다. 상호 존중 속에서 서로에게 배울 수 있는 생산적인 문화를 만들어 나갑니다.
+                    </p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box mt-5 mx-auto">
                     <i class="fab fa-4x fa-slack-hash text-primary mb-3 sr-icon-4"></i>
                     <h3 class="mb-3">Slack을 통한<br class="laptop-break">커뮤니티</h3>
-                    <p class="text-muted mb-0">많은 개발자들이 사용하는 커뮤니케이션 도구인 Slack을 사용하여, 수평적인 인간관계를 유지하고 활발한 프로그래밍 관련 대화를 나눕니다.</p>
+                    <p class="text-muted mb-0">
+                        많은 개발자들이 사용하는 커뮤니케이션 도구인 Slack을 사용하여, 수평적인 인간관계를 유지하고 활발한 프로그래밍 관련 대화를 나눕니다.
+                    </p>
                 </div>
             </div>
         </div>

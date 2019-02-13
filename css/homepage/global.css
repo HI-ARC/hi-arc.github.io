@@ -3,7 +3,12 @@
 	font-family: 'Noto Sans KR';
 }
 .text-faded {
-	font-family: 'Merriweather';
+	font-family: 'Merriweather', 'Noto Sans KR';
+}
+.no-style, .no-style:link, .no-style:active, .no-style:hover, .no-style:visited {
+	color: transparent !important;
+	text-decoration: none !important;
+	cursor: text;
 }
 
 /* Buttons */
@@ -24,6 +29,9 @@
 /* Header */
 header.masthead {
 	background-image: url("/img/front.jpg");
+
+	/* IE align center */
+	align-items: center;
 }
 
 .btn-scroll-wrap {

@@ -3,10 +3,6 @@ language: ruby
 rvm:
   - 2.4
 
-branches:
-  only:
-  - develop
-
 script:
   - bundle exec jekyll build --future
   - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html

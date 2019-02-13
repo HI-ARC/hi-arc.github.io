@@ -7,10 +7,10 @@ url: "http://hi-arc.github.io" # The base hostname & protocol for your site. Use
 color-theme: "pink"
 
 # Social
-socialimg: /img/social.jpg # be sure to change this image
+socialimg: /img/HIARC_social.jpg # be sure to change this image
 facebook: "hongikuniv.hiarc"
 twitter: twusername
-github: ghusername
+github: "HI-ARC"
 googleplus: gusername
 instagram: igusername
 

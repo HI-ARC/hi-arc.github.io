@@ -149,6 +149,7 @@ h1 {
 }
 .competition td {
     text-align: center;
+    word-break: keep-all;
 }
 .competition .tb-col5 {
     min-width: 5em;
