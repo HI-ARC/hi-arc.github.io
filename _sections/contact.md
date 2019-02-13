@@ -22,7 +22,7 @@ description: "혹시 더 궁금한 점이 있나요? 얼마든지 아래 연락�
             <div class="col-lg-4 ml-auto text-center">
                 <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
                 <p>
-                    <span class="no-style">{{site.phone}}</span>
+                    <a href="tel:{{site.phone}}">{{site.phone}}</a>
                 </p>
             </div>
             <div class="col-lg-4 mr-auto text-center">
