@@ -12,3 +12,8 @@
   - name: "UCPC 예선"
   - name: "카카오 Coding Festival"
   - name: "이데일리 CODING CHALLENGE"
+
+- year: 2019
+  lists:
+  - name: "UCPC"
+  - name: "ACM-ICPC Seoul Region"
