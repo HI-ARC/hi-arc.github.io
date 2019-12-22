@@ -1,0 +1,20 @@
+- chatroom: "활동 내용"
+  chats: 
+  - speaker: "admin"
+    messages: 
+    - "dddddd"
+    - "asdasd"
+  - speaker: "guest"
+    messages: 
+    - "asdsad"
+    - "asdsad"
+    - "asdsad"
+  - speaker: "admin"
+    messages: 
+    - "dddddd"
+    - "asdasd"
+  - speaker: "guest"
+    messages: 
+    - "asdsad"
+    - "asdsad"
+    - "asdsad"
