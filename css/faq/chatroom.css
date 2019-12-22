@@ -1,0 +1,74 @@
+.hide {
+    display: none;
+}
+
+.chatroom-content {
+    height: calc(100vh - 84px);
+    overflow-y: scroll;
+
+    background-color: #9bbbd4;
+}
+
+.messages-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.messages-wrapper .message.guest {
+    flex: flex-end;
+}
+
+.messages-wrapper .icon {
+    display: flex;
+
+    flex-basis: 40px;
+    height: 54px;
+
+    margin-right: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.icon.guest {
+    display: none;
+}
+
+.messages {
+    width: 100%;
+}
+
+.speech-bubble {
+    max-width: calc(100vw - 20%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    word-break: break-all;
+}
+
+.admin.message {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.guest.message  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.speech-bubble {
+    border-radius: 15px;
+    padding: 10px;
+    max-width: calc(100vw - 20%);
+    width: auto;
+}
+
+.admin .speech-bubble {
+    background-color: white;
+}
+
+.guest .speech-bubble {
+    margin-right: 10px;
+    background-color: #f7e600;
+    right: 0;
+}

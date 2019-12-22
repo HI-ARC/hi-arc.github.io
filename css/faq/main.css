@@ -7,9 +7,14 @@ header {
     padding-left: 20px;
     font-size: 29px;
     font-weight: 900;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     
     border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+header a {
+    padding-right: 10px;
 }
 
 .faq {
@@ -51,4 +56,8 @@ header {
     flex: 3;
     display: flex;
     align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
 }
