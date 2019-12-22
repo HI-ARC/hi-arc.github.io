@@ -24,7 +24,7 @@
 <div id="faq-container" class="fullscreen">
     <header id="kakao-head">
         <div id="header-text">
-            {{ site.title }} FAQ
+            <a href="/">&larr;</a> {{ site.title }} FAQ
         </div>
     </header>
 
