@@ -55,6 +55,21 @@
         thumbnail: ""
         pictures: []
 
+      - name: "정보보안 스터디"
+        description: "<br>by 신명준(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "C++ 스터디"
+        description: "<br>by ???(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "기초 알고리즘 스터디"
+        description: "<br>by ???(?기)"
+        thumbnail: ""
+        pictures: []
+
     - semester: "2학기"
       lists:
       - name: "1학년 C++ 기초 스터디<br>(강의식)"
@@ -111,12 +126,12 @@
     - semester: "겨울방학"
       lists:
       - name: "고급 알고리즘 연합 스터디"
-        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다."
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다.<br>"
         thumbnail: ""
         pictures: []
 
       - name: "중급 알고리즘 연합 스터디"
-        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다."
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다.<br>"
         thumbnail: ""
         pictures: []
 
@@ -162,32 +177,32 @@
     - semester: "1학기"
       lists:
       - name: "기초 프로그래밍 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 김효원(?기)"
         thumbnail: ""
         pictures: []
 
       - name: "초급 알고리즘 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 김종욱(?기)"
         thumbnail: ""
         pictures: []
 
       - name: "고급 알고리즘 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>"
         thumbnail: ""
         pictures: []
 
       - name: "기초 머신러닝 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 장우영(?기)"
         thumbnail: ""
         pictures: []
 
       - name: "머신러닝 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 장우영(?기)"
         thumbnail: ""
         pictures: []
 
       - name: "콘솔 게임.. 추가음..."
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 김성민(?기)"
         thumbnail: ""
         pictures: []
 
@@ -196,7 +211,17 @@
         thumbnail: ""
         pictures: []
 
+      - name: "정보보안 스터디"
+        description: "<br>by 신명준(?기)"
+        thumbnail: ""
+        pictures: []
+
       - name: "탈 CPP 챌린지"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 이재열(1기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "UCPC 대비 특강"
+        description: "<br>by 정연두(?기)"
         thumbnail: ""
         pictures: []
