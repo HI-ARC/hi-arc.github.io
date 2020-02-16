@@ -34,7 +34,6 @@
     rank: "18등"
     prize: "장려상"
 
-
 - year: 2018
   lists:
   - name: "김효원"
@@ -60,3 +59,29 @@
   - name: "양동우"
     rank: "17등"
     prize: "장려상"
+
+- year: 2019
+  lists:
+  - name: "김종욱"
+    rank: "1등"
+    prize: "금상"
+
+  - name: "서영진"
+    rank: "7등"
+    prize: "?상"
+
+  - name: "김성민"
+    rank: "8등"
+    prize: "?상"
+
+  - name: "백성익"
+    rank: "11등"
+    prize: "?상"
+
+  - name: "김민균"
+    rank: "12등"
+    prize: "?상"
+
+  - name: "김효원"
+    rank: "13등"
+    prize: "?상"
