@@ -136,7 +136,62 @@
         description: "<br>by 김성민(?기)"
         thumbnail: ""
         pictures: []
+
       - name: "기초 프로그래밍 스터디"
         description: "<br>by 김효원(?기)"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "여름방학"
+      lists:
+      - name: "정보보안 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "머신러닝 스터디"
+        description: "<br>by 장우영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "자료구조 스터디"
+        description: "<br>by 이동수(?기)"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "1학기"
+      lists:
+      - name: "기초 프로그래밍 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "초급 알고리즘 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "고급 알고리즘 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "기초 머신러닝 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "머신러닝 스터디"
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "콘솔 게임.. 추가음..."
+        description: "<br>by 반보영(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "탈 CPP 챌린지"
+        description: "<br>by 반보영(?기)"
         thumbnail: ""
         pictures: []
