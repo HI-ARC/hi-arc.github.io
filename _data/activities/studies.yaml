@@ -126,17 +126,17 @@
     - semester: "겨울방학"
       lists:
       - name: "고급 알고리즘 연합 스터디"
-        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 매주 월, 목에 진행되었습니다.<br>공백"
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 매주 월, 목에 진행되었습니다.<br>by 박수현(서강대)"
         thumbnail: ""
         pictures: []
 
       - name: "중급 알고리즘 연합 스터디"
-        description: "서강 ICPC TEAM과 연합하여 화요일과 금요일에 진행되었습니다.<br>"
+        description: "서강 ICPC TEAM과 화요일과 금요일에 모여서 진행되었습니다.<br>by 임지환(서강대), 이기현(서강대)"
         thumbnail: ""
         pictures: []
 
       - name: "초급 알고리즘 연합 스터디"
-        description: "서강 ICPC TEAM과 연합하여 수요일과 토요일에 모여서 진행하였습니다.<br>by 이재열, 김성민, 서강대"
+        description: "서강 ICPC TEAM과 수요일과 토요일에 모여서 진행하였습니다.<br>by 이재열, 김성민, 이태한(서강대),"
         thumbnail: ""
         pictures: []
 
@@ -187,7 +187,7 @@
         pictures: []
 
       - name: "고급 알고리즘 스터디"
-        description: "모여서 대회 문제셋을 풀어보고 리뷰하는 방식으로 진행된 스터디입니다.<br>"
+        description: "모여서 대회 문제셋을 풀어보고 리뷰하는 방식으로 진행된 스터디입니다.<br>by 정연두"
         thumbnail: ""
         pictures: []
 
