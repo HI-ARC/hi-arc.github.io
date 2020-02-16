@@ -191,6 +191,11 @@
         thumbnail: ""
         pictures: []
 
+      - name: "자바 스터디"
+        description: "<br>by 이동수(?기)"
+        thumbnail: ""
+        pictures: []
+
       - name: "탈 CPP 챌린지"
         description: "<br>by 반보영(?기)"
         thumbnail: ""
