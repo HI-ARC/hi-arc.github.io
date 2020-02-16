@@ -68,20 +68,24 @@
 
   - name: "서영진"
     rank: "7등"
-    prize: "?상"
+    prize: "동상"
 
   - name: "김성민"
     rank: "8등"
-    prize: "?상"
+    prize: "장려상"
 
   - name: "백성익"
     rank: "11등"
-    prize: "?상"
+    prize: "장려상"
 
   - name: "김민균"
     rank: "12등"
-    prize: "?상"
+    prize: "장려상"
 
   - name: "김효원"
     rank: "13등"
-    prize: "?상"
+    prize: "장려상"
+
+  - name: "정재현"
+    rank: "26등"
+    prize: "저학년특별상"
