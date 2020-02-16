@@ -56,12 +56,12 @@
         pictures: []
 
       - name: "정보보안 스터디"
-        description: "<br>by 신명준"
+        description: "해킹 공격의 예술 교재를 활용하여 보안 스터디를 진행했습니다.<br>by 신명준"
         thumbnail: ""
         pictures: []
 
       - name: "C++ 스터디"
-        description: "<br>by ???"
+        description: "인프런 C++강의를 통해 진행된 스터디입니다.<br>(토론식 스터디)"
         thumbnail: ""
         pictures: []
 
@@ -117,7 +117,7 @@
         pictures: []
 
       - name: "해킹 스터디"
-        description: "미리 준비된 PPT 자료를 가지고 공부하는 방식으로 모임을 가졌습니다."
+        description: "미리 준비된 PPT 자료를 가지고 공부하는 방식으로 모임을 가졌습니다. <br>by 김진경"
         thumbnail: ""
         pictures: []
 
@@ -202,12 +202,12 @@
         pictures: []
 
       - name: "자바 스터디"
-        description: "기본적인 자바 지식부터 깊은 내용까지 두루두루 진행된 스터디<br>by 이동수"
+        description: "기본적인 자바 지식부터 깊은 내용까지 두루두루 진행된 스터디입니다.<br>by 이동수"
         thumbnail: ""
         pictures: []
 
       - name: "정보보안 스터디"
-        description: "<br>by 신명준"
+        description: "겨울 방학에 이어서 해킹 공격의 예술 교재를 통해 스터디가 진행되었습니다.<br>by 신명준"
         thumbnail: ""
         pictures: []
 
