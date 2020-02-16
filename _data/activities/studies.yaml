@@ -142,6 +142,11 @@
 
     - semester: "2학기"
       lists:
+      - name: "기초 프로그래밍 스터디"
+        description: "<br>by 김효원(?기)"
+        thumbnail: ""
+        pictures: []
+
       - name: "알고리즘 스터디"
         description: "<br>by 김종욱(?기)"
         thumbnail: ""
@@ -149,11 +154,6 @@
 
       - name: "자료구조 스터디"
         description: "<br>by 김성민(?기)"
-        thumbnail: ""
-        pictures: []
-
-      - name: "기초 프로그래밍 스터디"
-        description: "<br>by 김효원(?기)"
         thumbnail: ""
         pictures: []
 
