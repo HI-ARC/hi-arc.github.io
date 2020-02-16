@@ -3,7 +3,7 @@
     - semester: "2학기"
       lists:
       - name: "알고리즘 스터디<br>(강의식)"
-        description: "5명의 학회원이 핵심 주축이 되어 번갈아가면서 강의를 하는 방식으로 스터디를 진행했었습니다. <br>by 장은상(1기), 김원재(1기), 박진우(1기), 이재열(1기), 이현우(1기)"
+        description: "5명의 학회원이 핵심 주축이 되어 번갈아가면서 강의를 하는 방식으로 스터디를 진행했었습니다. <br>by 장은상, 김원재, 박진우, 이재열, 이현우"
         thumbnail: ""
         pictures: []
     
@@ -28,14 +28,14 @@
     - semester: "2학기"
       lists:
       - name: "알고리즘 스터디<br>(강의식)"
-        description: "알고리즘 문제풀이에 필요한 자료구조(스택, 큐, 그래프, 트리)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기)"
+        description: "알고리즘 문제풀이에 필요한 자료구조(스택, 큐, 그래프, 트리)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열"
         thumbnail: ""
         pictures: []
 
     - semester: "여름방학"
       lists:
       - name: "알고리즘 스터디<br>(강의식)"
-        description: "2명의 학회원이 Trie/DFA를 포함한 문자열 알고리즘, 세그먼트 트리, 중국인의 나머지 정리, 유클리드 확장 알고리즘을 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기), 이현우(1기)"
+        description: "2명의 학회원이 Trie/DFA를 포함한 문자열 알고리즘, 세그먼트 트리, 중국인의 나머지 정리, 유클리드 확장 알고리즘을 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열, 이현우"
         thumbnail: ""
         pictures: []
 
@@ -51,58 +51,58 @@
     - semester: "겨울방학"
       lists:
       - name: "Django 스터디<br>(강의식)"
-        description: "Django로 간단하게 프로젝트를 만드는 방법을 실습 위주로 강의하는 방식으로 모임을 가졌습니다.<br>by 이재열(1기)"
+        description: "Django로 간단하게 프로젝트를 만드는 방법을 실습 위주로 강의하는 방식으로 모임을 가졌습니다.<br>by 이재열"
         thumbnail: ""
         pictures: []
 
       - name: "정보보안 스터디"
-        description: "<br>by 신명준(?기)"
+        description: "<br>by 신명준"
         thumbnail: ""
         pictures: []
 
       - name: "C++ 스터디"
-        description: "<br>by ???(?기)"
+        description: "<br>by ???"
         thumbnail: ""
         pictures: []
 
       - name: "기초 알고리즘 스터디"
-        description: "<br>by ???(?기)"
+        description: "<br>by ???"
         thumbnail: ""
         pictures: []
 
     - semester: "2학기"
       lists:
       - name: "1학년 C++ 기초 스터디<br>(강의식)"
-        description: "알고리즘 문제 풀이를 할 수 있는 수준으로 C++ 기초 문법에 강의하는 방식으로 모임을 가졌습니다. <br>by 정윤석(2기), 김종욱(3기)"
+        description: "알고리즘 문제 풀이를 할 수 있는 수준으로 C++ 기초 문법에 강의하는 방식으로 모임을 가졌습니다. <br>by 정윤석, 김종욱"
         thumbnail: ""
         pictures: []
 
       - name: "2학년 알고리즘 스터디<br>(강의식)"
-        description: "알고리즘 문제풀이에 필요한 자료구조(vector, string, stack, queue, graph)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 김민균(2기), 민경태(3기)"
+        description: "알고리즘 문제풀이에 필요한 자료구조(vector, string, stack, queue, graph)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 김민균, 민경태"
         thumbnail: ""
         pictures: []
 
     - semester: "여름방학"
       lists:
       - name: "PS 102 &lt;저학년이 풀만한 알고리즘 문제 풀이&gt; 스터디(강의식)"
-        description: "저학년이 풀만한 알고리즘 문제 유형(완전탐색, 비트마스킹, 에라토스테네스의 체, 이분탐색)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기)"
+        description: "저학년이 풀만한 알고리즘 문제 유형(완전탐색, 비트마스킹, 에라토스테네스의 체, 이분탐색)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열"
         thumbnail: ""
         pictures: []
 
       - name: "ACM-ICPC 준비 스터디<br>(강의식)"
-        description: "ACM-ICPC를 준비하기 위해, 교과과정에서 다루지 않는 여러가지 자료구조 및 알고리즘(KMP, Ford-fulkerson, Trie, 아호코라식, SCC, 2-SAT)에 대해 강의하는 방식으로 스터디를 진행했습니다.<br>by 이재열(1기)"
+        description: "ACM-ICPC를 준비하기 위해, 교과과정에서 다루지 않는 여러가지 자료구조 및 알고리즘(KMP, Ford-fulkerson, Trie, 아호코라식, SCC, 2-SAT)에 대해 강의하는 방식으로 스터디를 진행했습니다.<br>by 이재열"
         thumbnail: ""
         pictures: []
 
     - semester: "1학기"
       lists:
       - name: "PS 101&lt;C++ 기초 스터디&gt;<br>(강의식)"
-        description: "C++ 기초 문법을 이용해서 문제풀이를 하는 방식에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기), 김민균(2기)"
+        description: "C++ 기초 문법을 이용해서 문제풀이를 하는 방식에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열, 김민균"
         thumbnail: ""
         pictures: []
 
       - name: "Python 기초 스터디<br>(강의식)"
-        description: "파이썬 기초 문법에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열(1기)"
+        description: "파이썬 기초 문법에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 이재열"
         thumbnail: ""
         pictures: []
 
@@ -126,102 +126,102 @@
     - semester: "겨울방학"
       lists:
       - name: "고급 알고리즘 연합 스터디"
-        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다.<br>"
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 매주 월, 목에 진행되었습니다.<br>공백"
         thumbnail: ""
         pictures: []
 
       - name: "중급 알고리즘 연합 스터디"
-        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다.<br>"
+        description: "서강 ICPC TEAM과 연합하여 화요일과 금요일에 진행되었습니다.<br>"
         thumbnail: ""
         pictures: []
 
       - name: "초급 알고리즘 연합 스터디"
-        description: "매주 2회 모여서 진행하였습니다.<br>by 이재열(1기), 김성민(?기), 서강대"
+        description: "서강 ICPC TEAM과 연합하여 수요일과 토요일에 모여서 진행하였습니다.<br>by 이재열, 김성민, 서강대"
         thumbnail: ""
         pictures: []
 
     - semester: "2학기"
       lists:
       - name: "기초 프로그래밍 스터디"
-        description: "<br>by 김효원(?기)"
+        description: "1학기에 이어서 C++의 문법과 기초 백준 문제를 풀어보는 방식으로 진행되었습니다.<br>by 김효원"
         thumbnail: ""
         pictures: []
 
       - name: "알고리즘 스터디"
-        description: "<br>by 김종욱(?기)"
+        description: "STL을 활용해 자료구조를 사용하는 기본 알고리즘에 대해 스터디가 진행되었습니다.<br>by 김종욱"
         thumbnail: ""
         pictures: []
 
       - name: "자료구조 스터디"
-        description: "<br>by 김성민(?기)"
+        description: "2-2 전필과목인 자료구조의 수업 진도에 맞춰 도움이 될 수 있는 내용으로 스터디를 진행했습니다.<br>by 김성민"
         thumbnail: ""
         pictures: []
 
     - semester: "여름방학"
       lists:
       - name: "정보보안 스터디"
-        description: "<br>by 반보영(?기)"
+        description: "<br>by 반보영"
         thumbnail: ""
         pictures: []
 
       - name: "머신러닝 스터디"
-        description: "<br>by 장우영(?기)"
+        description: "<br>by 장우영"
         thumbnail: ""
         pictures: []
 
       - name: "자료구조 스터디"
-        description: "<br>by 이동수(?기)"
+        description: "자료구조 수업을 미리 맛보는 스터디<br>by 이동수"
         thumbnail: ""
         pictures: []
 
     - semester: "1학기"
       lists:
       - name: "기초 프로그래밍 스터디"
-        description: "<br>by 김효원(?기)"
+        description: "신입생들에게 C언어에 대해서 알려주는 스터디<br>by 김효원"
         thumbnail: ""
         pictures: []
 
       - name: "초급 알고리즘 스터디"
-        description: "<br>by 김종욱(?기)"
+        description: "<br>by 김종욱"
         thumbnail: ""
         pictures: []
 
       - name: "고급 알고리즘 스터디"
-        description: "<br>"
+        description: "모여서 대회 문제셋을 풀어보고 리뷰하는 방식으로 진행된 스터디입니다.<br>"
         thumbnail: ""
         pictures: []
 
       - name: "기초 머신러닝 스터디"
-        description: "<br>by 장우영(?기)"
+        description: "<br>by 장우영"
         thumbnail: ""
         pictures: []
 
       - name: "머신러닝 스터디"
-        description: "<br>by 장우영(?기)"
+        description: "<br>by 장우영"
         thumbnail: ""
         pictures: []
 
       - name: "콘솔 게임.. 추가음..."
-        description: "<br>by 김성민(?기)"
+        description: "익숙한 콘솔 화면에서 테트리스를 만드는 내용을 목적으로 진행되다 터진 스터디입니다.<br>by 김성민"
         thumbnail: ""
         pictures: []
 
       - name: "자바 스터디"
-        description: "<br>by 이동수(?기)"
+        description: "기본적인 자바 지식부터 깊은 내용까지 두루두루 진행된 스터디<br>by 이동수"
         thumbnail: ""
         pictures: []
 
       - name: "정보보안 스터디"
-        description: "<br>by 신명준(?기)"
+        description: "<br>by 신명준"
         thumbnail: ""
         pictures: []
 
-      - name: "탈 CPP 챌린지"
-        description: "<br>by 이재열(1기)"
+      - name: "탈 C++ 챌린지"
+        description: "PS를 C++로만 푸는 것에서 벗어나 파이썬, 자바를 이용해서 풀어보는 스터디<br>by 이재열"
         thumbnail: ""
         pictures: []
 
       - name: "UCPC 대비 특강"
-        description: "<br>by 정연두(?기)"
+        description: "<br>by 정연두"
         thumbnail: ""
         pictures: []
