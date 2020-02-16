@@ -105,3 +105,38 @@
         description: "미리 준비된 PPT 자료를 가지고 공부하는 방식으로 모임을 가졌습니다."
         thumbnail: ""
         pictures: []
+
+- year: 2019
+  semesters:
+    - semester: "겨울방학"
+      lists:
+      - name: "고급 알고리즘 연합 스터디"
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다."
+        thumbnail: ""
+        pictures: []
+
+      - name: "중급 알고리즘 연합 스터디"
+        description: "2019년 겨울 방학 스터디는 서강 ICPC TEAM과 연합하여 진행되었습니다."
+        thumbnail: ""
+        pictures: []
+
+      - name: "초급 알고리즘 연합 스터디"
+        description: "매주 2회 모여서 진행하였습니다.<br>by 이재열(1기), 김성민(?기), 서강대"
+        thumbnail: ""
+        pictures: []
+
+    - semester: "2학기"
+      lists:
+      - name: "알고리즘 스터디"
+        description: "<br>by 김종욱(?기)"
+        thumbnail: ""
+        pictures: []
+
+      - name: "자료구조 스터디"
+        description: "<br>by 김성민(?기)"
+        thumbnail: ""
+        pictures: []
+      - name: "기초 프로그래밍 스터디"
+        description: "<br>by 김효원(?기)"
+        thumbnail: ""
+        pictures: []
