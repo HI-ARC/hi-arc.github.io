@@ -94,6 +94,16 @@
         thumbnail: ""
         pictures: []
 
+      - name: "HTML 스터디<br>(강의식)"
+        description: ".<br>."
+        thumbnail: ""
+        pictures: []
+
+      - name: "리눅스 스터디<br>(강의식)"
+        description: "리눅스 사용법에 대해서 강의가 진행되었습니다<br>by 김효원"
+        thumbnail: ""
+        pictures: []
+
     - semester: "1학기"
       lists:
       - name: "PS 101&lt;C++ 기초 스터디&gt;<br>(강의식)"
@@ -165,7 +175,7 @@
         pictures: []
 
       - name: "머신러닝 스터디"
-        description: "<br>by 장우영"
+        description: "hands-on machine learning책과 진행된 스터디<br>by 장우영"
         thumbnail: ""
         pictures: []
 
@@ -192,12 +202,12 @@
         pictures: []
 
       - name: "기초 머신러닝 스터디"
-        description: "<br>by 장우영"
+        description: "머신러닝을 배우는데 필요한 기초적인 파이썬과 선대 기초, 머신러닝을 스터디했습니다.<br>by 장우영"
         thumbnail: ""
         pictures: []
 
       - name: "머신러닝 스터디"
-        description: "<br>by 장우영"
+        description: "텐서플로우를 이용..<br>by 장우영"
         thumbnail: ""
         pictures: []
 
