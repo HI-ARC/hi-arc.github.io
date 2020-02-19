@@ -187,7 +187,7 @@
     - semester: "1학기"
       lists:
       - name: "기초 프로그래밍 스터디"
-        description: "신입생들에게 C언어에 대해서 알려주는 스터디<br>by 김효원"
+        description: "C++을 사용한 간단한 알고리즘 문제 해결을 목표로, C++ 문법과 STL 활용을 공부했습니다.<br>by 김효원"
         thumbnail: ""
         pictures: []
 
