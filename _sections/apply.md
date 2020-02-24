@@ -15,7 +15,7 @@ button: "join now"
         <p class="mb-5">가입 신청 기한: {{site.apply-date}}까지</p>
         <a class="btn btn-trans btn-xl 
             {% unless site.joinable %}
-                disabled
+                enabled
             {% endunless %}
         " href="{{site.apply-form}}">
             {{page.button}}
