@@ -6,8 +6,8 @@ href: "apply"
 nav-text: "apply"
 
 heading: "HI-ARC는 누구에게나 열려 있습니다!"
-newbie-button: "join now"
-button: "join now"
+newbie-button: "신입생 가입 신청서"
+button: "재학생 가입 신청서"
 ---
 
 <section class="bg-primary text-white" id="apply">
