@@ -82,6 +82,11 @@
         thumbnail: ""
         pictures: []
 
+      - name: "안드로이드 앱개발 스터디<br>(토론식)"
+        description: "교재를 각자 예습하고, 학습한 내용에 대한 의견과 의문점을 함께 공유하는 방식으로 모임을 가졌습니다."
+        thumbnail: ""
+        pictures: []
+
     - semester: "여름방학"
       lists:
       - name: "PS 102 &lt;저학년이 풀만한 알고리즘 문제 풀이&gt; 스터디(강의식)"
