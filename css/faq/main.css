@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 29px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+header a {
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.faq {
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.faq .icon {
+    flex-basis: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq .icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.faq .content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.faq .title {
+    flex: 4;
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.faq .preview {
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}

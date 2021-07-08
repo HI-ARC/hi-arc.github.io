@@ -32,6 +32,8 @@ collections:
   lists:
     output: false
 
+  faqs:
+    output: false
 
 # Use this for production
 #sass:
