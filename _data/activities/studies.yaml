@@ -50,6 +50,27 @@
   semesters:
     - semester: "겨울방학"
       lists:
+      
+      - name: "안드로이드기초<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
+      - name: "안드로이드앱개발<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+        
+      - name: "java<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
+      
+      - name: "정보보안<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []
+      
       - name: "Django 스터디<br>(강의식)"
         description: "Django로 간단하게 프로젝트를 만드는 방법을 실습 위주로 강의하는 방식으로 모임을 가졌습니다.<br>by 이재열"
         thumbnail: ""
@@ -69,6 +90,11 @@
         description: "<br>by ???"
         thumbnail: ""
         pictures: []
+                           
+      - name: "기초알고리즘<br>(강의식)"
+        description: ""
+        thumbnail: ""
+        pictures: []  
 
     - semester: "2학기"
       lists:
