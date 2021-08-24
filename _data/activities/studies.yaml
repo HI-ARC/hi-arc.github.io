@@ -6,15 +6,13 @@
         description: "5명의 학회원이 핵심 주축이 되어 번갈아가면서 강의를 하는 방식으로 스터디를 진행했었습니다. <br>by 장은상, 김원재, 박진우, 이재열, 이현우"
         thumbnail: ""
         pictures: []
-    
+
     - semester: "1학기"
       lists:
       - name: "&lt;알고리즘 문제해결전략&gt; 스터디"
         description: "각자 번갈아가면서 문제풀이 방식을 공유하는 방식으로 스터디를 진행했었습니다."
         thumbnail: ""
         pictures: []
-
-
 
 - year: 2017
   semesters:
@@ -79,6 +77,11 @@
 
       - name: "2학년 알고리즘 스터디<br>(강의식)"
         description: "알고리즘 문제풀이에 필요한 자료구조(vector, string, stack, queue, graph)에 대해 강의하는 방식으로 모임을 가졌습니다. <br>by 김민균, 민경태"
+        thumbnail: ""
+        pictures: []
+
+      - name: "안드로이드 앱개발 스터디<br>(토론식)"
+        description: "교재를 각자 예습하고, 학습한 내용에 대한 의견과 의문점을 함께 공유하는 방식으로 모임을 가졌습니다."
         thumbnail: ""
         pictures: []
 
